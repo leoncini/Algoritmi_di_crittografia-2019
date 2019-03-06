@@ -8,6 +8,8 @@ CHSET = " '.,:;!?()abcdefghijklmnopqrstuvwxyzàèéìòù\n"
 class NotSupportedSymbol(Exception):
     pass
 
+ciphertext = ":òhìv..rxxzùhtzw'r,ùhtùòhzéhtzw'r'zùhuzhtv.r'v"
+
 def encrypt(plaintext,key):
     '''Encryption simply works by "rotating" the alphabet key
        positions to right'''
