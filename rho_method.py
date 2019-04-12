@@ -90,10 +90,10 @@ def GetCollision(x0, H):
         x1 = H(x1)
         x2 = H(H(x2))
         i += 1
-    # The fineal value of index i is an integer multiple of the cycle length
+    # The final value of index i is an integer multiple of the cycle length.
     # It follows that two iterations starting one at xi and one again at x0
     # will meet precisely at the junction point
-    # Two detect the colliding values it is clearly crucial to always
+    # To detect the colliding values it is clearly crucial to always
     # keep the predecessors of the values being compared
     x1prec = x0
     x1 = H(x1prec)
